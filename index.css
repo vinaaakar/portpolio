@@ -1,0 +1,497 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body{
+    margin-top:20px;
+    padding: 0; 
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #1A1A1D;
+    color: #B0B0B0;
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul,li{
+    display: inline;
+}
+.a{
+    margin-right: 65%;
+    width: 300px;
+}
+.b a{
+    margin-right: 20px;
+    color: #B0B0B0;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.b a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+#color{
+    color: #B0B0B0;
+}
+.c{
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+#d{
+    margin-top: 150px;
+    position: relative;
+}
+#button{
+    width: 130px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    color: #1A1A1D;
+    border-color: whitesmoke;
+    border: 2px;
+    border-radius: 100px;
+    height: 30px;
+    transition: 0.5s ease-in-out;
+}
+#button:hover{
+    background-color: #1A1A1D;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+#button1{
+    background-color: #B0B0B0;
+    color: #1A1A1D;
+    border-radius: 500px;
+    height: 30px;
+    transition: 0.5s ease-in-out;
+    border: 0;
+    width: 60px;
+}
+#button1:hover{
+    background-color: #1A1A1D;
+    color: #B0B0B0;
+    border-color: #B0B0B0;
+    box-shadow: 0px 0px 8px #B0B0B0;
+}
+#shape1 img{
+    cursor: pointer;
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+    position: absolute;
+    top: 120px;
+    left: 55%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px #B0B0B0;
+    transition: 0.5s ease-in-out;
+    border: 2px solid white;
+    filter: grayscale(100%);
+}
+#shape1 img:hover{
+    width: 360px;
+    height: 360px;
+    box-shadow: 0px 0px 200px whitesmoke;
+    filter: grayscale(0%);
+}
+.d,p{
+    width: 30%;
+}
+.services{
+    margin-top: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    animation: appear ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.services p{
+    width: 100%;
+}
+#ab{
+    width: 250px;
+    color: whitesmoke;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    position: relative;
+
+}
+.e img{
+    width: 140px;
+    height: 150px;
+    display: flex;
+}
+.e h3{
+    width: 50px;
+}
+.skills{
+    margin-left: 5%;
+    margin-right: 5%;
+    animation: appear ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.skills h1{
+    margin-bottom: 30px;
+}
+.e{
+    box-shadow: 0px 0px 10px #B0B0B0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in-out;
+    border-radius: 15px;
+    animation: appear ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    cursor: pointer;
+}
+.e:hover{
+    box-shadow: 0px 0px 20px white;
+}
+.skills p{
+    position: absolute;
+    width: 300px;
+    right: 40px;
+    top: 25%;
+    z-index: 1;
+}
+#ac{
+    color: white;
+}
+.education h3{
+    color: white;
+}
+.education{
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: appear ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.intro{
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: 0.5s ease-in-out;
+    transition: appear ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.z{
+    z-index: 2;
+    margin-left: 10px;
+    padding: 5px;
+    width: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #B0B0B0;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+.y{
+    z-index: 2;
+    margin-left: 50px;
+    padding: 5px;
+    width: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #B0B0B0;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+.z:hover, .y:hover{
+    box-shadow: 0px 0px 10px white;
+}
+.education{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 1000px;
+    animation: appear1 ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+@keyframes appear1{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes appear2{
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.school{
+    position: relative;
+    animation: appear ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.school p{
+    width: 300px;
+}
+.school img{
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    right: 10%;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 100px #B0B0B0;
+    transition: 0.5s ease-in-out;
+    animation: appear1 ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.school img:hover{
+    width: 310px;
+    height: 210px;
+    box-shadow: 0px 0px 200px whitesmoke;
+    filter: grayscale(0%);
+}
+.collage{
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    margin-top: 10%;
+    height: 600px;
+    animation: appear2 ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.collage .ad{
+    z-index: 100;
+    width: 300px;
+    position: absolute;
+    top: 8%;
+    right: 20%;
+}
+.collage .ae{
+    z-index: 100;
+    width: 300px;
+    position: absolute;
+    top: 31%;
+    right: 20%;
+}
+.collage .af{
+    z-index: 100;
+    width: 300px;
+    position: absolute;
+    top: 56%;
+    right: 20%;
+}
+.collage h3{
+    z-index: 100;
+    position: absolute;
+    top: 0%;
+    right: 40%;
+}
+.collage img{
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 5%;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 100px #B0B0B0;
+    transition: 0.5s ease-in-out;
+    animation: appear ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    filter: grayscale(100%);
+}
+.collage img:hover{
+    width: 310px;
+    height: 210px;
+    box-shadow: 0px 0px 200px whitesmoke;
+    filter: grayscale(0%);
+}
+.about{
+    background-color: #B0B0B0;
+    color: #1A1A1D;
+    padding-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  /* Remove large bottom padding from nav */
+  ul, li {
+    padding-bottom: 0 !important;
+  }
+
+  /* Navbar stays on top but aligns properly */
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    margin: 0;
+    list-style: none;
+  }
+
+  .a, .b {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .b a {
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+  }
+
+  .b a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+
+  /* Center the intro section */
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+
+  #d {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #d h1,
+  #d p {
+    margin: 10px 0;
+    width: 90%;
+  }
+
+  #button1 {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    background-color: #B0B0B0;
+    color: #1A1A1D;
+    font-size: 14px;
+    border: none;
+    transition: 0.5s ease-in-out;
+  }
+
+  #button1:hover {
+    background-color: #1A1A1D;
+    color: #B0B0B0;
+    box-shadow: 0px 0px 8px #B0B0B0;
+  }
+
+  .z, .y {
+    display: inline-block;
+    width: 25px;
+    margin: 10px 5px;
+    box-shadow: 0px 0px 5px #B0B0B0;
+    transition: 0.5s ease-in-out;
+    position: static;
+  }
+
+  .z:hover,
+  .y:hover {
+    box-shadow: 0px 0px 10px white;
+  }
+
+  #shape1 img {
+    width: 60vw;
+    height: auto;
+    position: static;
+    margin: 20px auto;
+    display: block;
+  }
+
+  /* Skill section fixes */
+  .skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .e {
+    width: 40%;
+    max-width: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .e img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .e h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .skills p {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+    text-align: justify;
+  }
+
+  /* Education section */
+  .collage, .school {
+    position: static;
+    height: auto;
+    width: 90%;
+    margin: 0 auto 40px auto;
+  }
+
+  .collage img,
+  .school img {
+    position: static;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .collage .ad,
+  .collage .ae,
+  .collage .af,
+  .collage h3 {
+    position: static;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+  }
+}
